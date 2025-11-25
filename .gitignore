@@ -1,0 +1,25 @@
+# Data files (too large for GitHub)
+data/*.csv
+data/*.zip
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Credentials
+.kaggle/
+kaggle.json
