@@ -1,4 +1,111 @@
-# Supply Chain Late Delivery Intelligence Platform
+# 🚚 Supply Chain Late Delivery Intelligence
+
+A full-stack analytics project demonstrating end-to-end data pipeline development, from raw data to predictive insights.
+
+![Dashboard Preview](tableau/screenshots/dashboard_main.png)
+
+## 🎯 Business Problem
+
+Over 54% of orders are delivered late. This project builds a predictive analytics solution to:
+- Identify root causes of late deliveries
+- Predict at-risk orders before they ship
+- Provide actionable insights for operations teams
+
+## 🔗 Live Dashboard
+
+**[View Interactive Dashboard on Tableau Public](YOUR_TABLEAU_PUBLIC_URL_HERE)**
+
+## 🏗️ Architecture
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Raw Data      │────▶│   PostgreSQL    │────▶│    Tableau      │
+│   (CSV)         │     │   Star Schema   │     │   Dashboard     │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+        │                       │                       │
+        ▼                       ▼                       ▼
+   180k orders            ETL Pipeline            Interactive
+   53 features            Python + SQL            Visualizations
+                                │
+                                ▼
+                    ┌─────────────────┐
+                    │  ML Model       │
+                    │  Random Forest  │
+                    │  71% Accuracy   │
+                    └─────────────────┘
+```
+
+## 📊 Key Findings
+
+| Insight | Details |
+|---------|---------|
+| 🚨 Shipping Mode Paradox | First Class has 95% late rate vs Standard at 38% |
+| 📦 Systemic Problem | Late rate consistent across all product categories (54-57%) |
+| 🤖 ML Predictor | Shipping mode alone accounts for 31% of predictive power |
+| 💡 Root Cause | Company is overpromising delivery times, not a logistics capacity issue |
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Database | PostgreSQL 15 |
+| ETL | Python (pandas, SQLAlchemy) |
+| Analysis | SQL (CTEs, Window Functions) |
+| ML | scikit-learn (Random Forest) |
+| Visualization | Tableau Public |
+| Version Control | Git/GitHub |
+
+## 📁 Project Structure
+```
+supply-chain-analytics/
+├── notebooks/
+│   ├── 01_data_exploration.ipynb    # EDA with visualizations
+│   └── 02_machine_learning.ipynb    # ML model development
+├── sql/
+│   ├── create_tables.sql            # Star schema DDL
+│   └── analytics_queries.sql        # Advanced SQL queries
+├── src/
+│   └── etl_pipeline.py              # Python ETL script
+├── tableau/
+│   ├── tableau_export.csv           # Data export for Tableau
+│   └── screenshots/                 # Dashboard images
+└── README.md
+```
+
+## 🤖 Machine Learning Model
+
+**Random Forest Classifier** predicting late delivery risk:
+
+| Metric | Score |
+|--------|-------|
+| Accuracy | 70.9% |
+| Precision | 86.1% |
+| Recall | 55.9% |
+| F1 Score | 67.8% |
+| AUC-ROC | 0.771 |
+
+**Top Predictive Features:**
+1. Shipping Mode (31%)
+2. Scheduled Ship Days (28%)
+3. Fast Shipping Flag (20%)
+4. Order Status (17%)
+
+## 📈 SQL Skills Demonstrated
+
+- Common Table Expressions (CTEs)
+- Window Functions (RANK, LAG, SUM OVER)
+- Complex JOINs across star schema
+- CASE statements for conditional logic
+- Cohort analysis
+
+## 👤 Author
+
+**John-Paul McGrath**
+- GitHub: [@ItsTheBravo](https://github.com/ItsTheBravo)
+- LinkedIn: [johnpaulmcgrath](https://linkedin.com/in/johnpaulmcgrath)
+
+---
+
+*Built as part of a career transition into Business Intelligence & Data Analytics*# Supply Chain Late Delivery Intelligence Platform
 
 An end-to-end data analytics project demonstrating SQL, Python, Machine Learning, and Tableau.
 
