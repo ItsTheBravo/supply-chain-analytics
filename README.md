@@ -242,7 +242,7 @@ If you encounter issues or have feature requests, please open an Issue on GitHub
 
 **John-Paul McGrath**
 - GitHub: [@ItsTheBravo](https://github.com/ItsTheBravo)
-- LinkedIn: [johnpaulmcgrath](https://www.linkedin.com/in/johnpaulmcgrath/)
+- LinkedIn: [John-Paul McGrath]([https://www.linkedin.com/in/johnpaulmcgrath/](https://www.linkedin.com/in/johnpmcgrath98/))
 
 ---
 
