@@ -228,7 +228,7 @@ Interactive Tableau dashboard providing:
 - Root cause insights
 - Predictive classification visuals
 
-[View the Dashboard](https://public.tableau.com/app/profile/john.paul.mcgrath/viz/SupplyChainLateDeliveryIntelligence_17325492420950/Dashboard1)
+[View the Dashboard](https://public.tableau.com/app/profile/john.paul.mcgrath/viz/Supply_Chain_Late_Deliveries/Dashboard2)
 
 ---
 
@@ -242,7 +242,7 @@ If you encounter issues or have feature requests, please open an Issue on GitHub
 
 **John-Paul McGrath**
 - GitHub: [@ItsTheBravo](https://github.com/ItsTheBravo)
-- LinkedIn: [John-Paul McGrath]([https://www.linkedin.com/in/johnpaulmcgrath/](https://www.linkedin.com/in/johnpmcgrath98/))
+- LinkedIn: [John-Paul McGrath](https://www.linkedin.com/in/johnpmcgrath98/)
 
 ---
 
